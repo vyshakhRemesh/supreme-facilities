@@ -1,0 +1,16 @@
+.footer {
+  background-color: #005faa;
+  color: white;
+  padding: 1.5rem 2rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.footer__content p {
+  margin: 0.5rem 0;
+}
+
+.footer__content a {
+  color: #ffffff;
+  text-decoration: underline;
+}

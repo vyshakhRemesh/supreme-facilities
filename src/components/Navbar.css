@@ -1,0 +1,40 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #005faa;
+  padding: 1rem 2rem;
+  color: white;
+}
+
+.navbar__logo h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+/* 🛠️ Add this: flex layout for the nav items */
+.navbar__links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+/* 🔗 Link styling */
+.navbar__links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  transition: 0.2s ease;
+}
+
+/* 🎯 Highlight active route */
+.navbar__links li a.active {
+  background-color: white;
+  color: #005faa;
+  font-weight: 600;
+}
